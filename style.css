@@ -1,0 +1,29 @@
+canvas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.again-button{
+    background-color: red;
+    height: 2em;
+    width: 10em;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.again-button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
